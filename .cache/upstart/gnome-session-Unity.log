@@ -1,0 +1,12 @@
+ERROR 2014-10-15 01:02:31 unity.glib.dbus.server GLibDBusServer.cpp:524 DBus name lost 'org.gnome.Shell'
+ERROR 2014-10-15 01:02:31 unity.glib.dbus.server GLibDBusServer.cpp:524 DBus name lost 'com.canonical.Unity'
+WARN  2014-10-15 01:02:35 unity{?*} <unknown>:0 protocol-scope-discovery.vala:542: Number of elements of OptionIDs doesn't match OptionNames (14 vs 28)
+WARN  2014-10-15 01:02:40 unity.dash.view DashView.cpp:1263 Search failed  ''=> Timed out waiting for scope proxy connection
+WARN  2014-10-15 01:02:40 unity.dash.scopeproxy ScopeProxy.cpp:516 Could not search '' on home.scope => Timed out waiting for scope proxy connection
+WARN  2014-10-15 01:02:44 unity.iconloader IconLoader.cpp:755 Unable to load icon file:/// at size -1x22: 디렉터리를 열 수 없습니다
+
+(nm-applet:1961): nm-applet-WARNING **: Could not find ShellVersion property on org.gnome.Shell after 5 tries
+
+(gnome-terminal:2259): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.
+
+(gnome-terminal:2401): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.

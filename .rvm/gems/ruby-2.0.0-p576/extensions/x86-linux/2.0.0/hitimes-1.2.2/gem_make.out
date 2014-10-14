@@ -1,0 +1,18 @@
+/home/junghwan/.rvm/rubies/ruby-2.0.0-p576/bin/ruby extconf.rb
+checking for clock_gettime() in -lrt... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling hitimes.c
+compiling hitimes_instant_windows.c
+compiling hitimes_instant_clock_gettime.c
+compiling hitimes_interval.c
+compiling hitimes_stats.c
+compiling hitimes_instant_osx.c
+linking shared-object hitimes/2.0/hitimes.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 hitimes.so ./.gem.20141013-22113-mtn9f9/hitimes/2.0
+installing default hitimes libraries
